@@ -1,0 +1,46 @@
+/*main Style for my resume */
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1em
+  color= #444;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color:#33485e;
+}
+
+/*main style for my title */
+strong {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #33485e;
+}
+
+/*main sytles headers (education, skils, experience) */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #fff;
+}
+
+
+h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+/*main styles years */
+h5 {
+  font-style: italic;
+}
+
+/*main styles all lists */
+ul {
+  font-size: 1em;
+}
