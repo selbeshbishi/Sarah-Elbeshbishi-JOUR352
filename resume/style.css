@@ -7,40 +7,111 @@ body {
   font-weight: 400;
 }
 
-h1 {
+#container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#name {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
   color:#33485e;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+#title {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 /*main style for my title */
 strong {
   font-size: 1.5em;
   text-transform: uppercase;
-  color: #33485e;
+  color: #33485e
 }
 
 /*main sytles headers (education, skils, experience) */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 70%;
+  min-width: 300px
 }
 
 
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
+.organization {
+  font-size: 1.25em;
+}
+
 /*main styles years */
-h5 {
+.date {
   font-style: italic;
+  margin-top: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.menu li {
+  display: inline;
+}
+
+.degrees {
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 /*main styles all lists */
+.do {
+  margin-top: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 ul {
   font-size: 1em;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
