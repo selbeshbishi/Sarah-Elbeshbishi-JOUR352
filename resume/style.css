@@ -1,5 +1,4 @@
 /*main Style for my resume */
-
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 1em
@@ -34,12 +33,6 @@ body {
   margin-bottom: 0px;
 }
 
-/*main style for my title */
-strong {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  color: #33485e
-}
 
 /*main sytles headers (education, skils, experience) */
 .sectionheader {
@@ -103,10 +96,6 @@ strong {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
-}
-
-ul {
-  font-size: 1em;
 }
 
 .top {
