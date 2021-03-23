@@ -1,0 +1,114 @@
+
+#content {
+  margin:0 auto;
+  width:900px;
+  font-family: georgia, serif;
+  font-size: 13px;
+}
+
+#header {
+  font-family: georgia, serif;
+  font-size: 95px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin:0 auto;
+  width:700px;
+  padding-top: 20px;
+}
+
+#date {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin:0 auto;
+  width:700px;
+  font-style: italic;
+}
+
+#caption {
+font-size: 13px;
+margin:0 auto;
+width:800px;
+padding-bottom: 20px;
+font-style: italic;
+}
+
+
+.pquote{
+float: left;
+width: 245px;
+padding: 13px;
+margin: 0 13px 13px 0;
+}
+
+hr{
+  margin-bottom: 7px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 9px;
+  width: 90%;
+  color: #030101;
+  height: 5px;
+  background-color: #030101;
+}
+
+h1{
+  margin:0 auto;
+  width:750px;
+  font-size: 50px;
+  font-weight: lighter;
+  padding-top: 70px;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  width: 950px;
+}
+
+h2{
+  margin:0 auto;
+  width:900px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-family: georgia, serif;
+}
+
+h3{
+  margin:0 auto;
+  width: 900px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  font-family: georgia, serif;
+  font-size: 30px;
+}
+
+h4 {
+  margin:0 auto;
+  width: 900px;
+  font-family: georgia, serif;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+ul{
+  margin:0 auto;
+  width:900px;
+  font-family: georgia, serif;
+  font-size: 15px;
+}
+
+blockquote{
+  margin: 0;
+  font-size: 25px;
+
+}
