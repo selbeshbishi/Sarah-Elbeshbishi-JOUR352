@@ -6,16 +6,16 @@
   margin: 0 auto;
   max-width: 800px;
   font-family: georgia, serif;
-  padding-top: 100px;
 }
 
 #Masthead {
-  font-family: georgia, serif;
-  font-size: 95px;
-  text-align: center;
-  padding-bottom: 5px;
-  padding-top: 75px;
-  font-variant: inherit;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  display: block;
 }
 
 #content {
