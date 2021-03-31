@@ -93,6 +93,7 @@ img.headshot {
   }
   .row{
     max-width: 650px;
+    padding-left: 20px;
   }
 
 }
