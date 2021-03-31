@@ -100,7 +100,7 @@ img.headshot {
   }
 
   img.headshot {
-    margin-top: -50px;
+    margin-top: -20px;
     width: 100px;
     margin-left: 20px;
   }
@@ -110,8 +110,8 @@ img.headshot {
     margin: 0 auto;
     padding-bottom: 45px;
     font-family: 'lato', sans-serif;
-    font-size: 1em;
-    font-weight: 200;
+    font-size: 2em;
+    font-weight: 400;
   }
 
 }
