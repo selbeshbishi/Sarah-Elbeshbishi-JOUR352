@@ -1,15 +1,13 @@
 /*main style for my resume */
-body {
-  font-family: 'lato', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-}
 
 #container{
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 75px;
+  font-family: 'lato', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 /*main sytles headers (education, skils, experience) */
@@ -40,15 +38,6 @@ body {
   margin-right: 0px;
 }
 
-.menu {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-.menu li {
-  display: inline;
-}
-
 .degrees {
   margin-top: 5px;
   margin-left: 0px;
@@ -64,7 +53,6 @@ body {
   margin-bottom: 0;
 }
 
-
 #work{
   font-weight: lighter;
   text-align: center;
@@ -75,16 +63,6 @@ body {
   border-color: #FFFFFF;
   border-width: medium;
   letter-spacing: 4px;
-}
-
-.col-3 {
-  background-color: #5E7708;
-  padding-top: 20px;
-  margin-top: -10px;
-}
-
-.col-9 {
-  padding-right: 50px;
 }
 
 img.center {
@@ -102,40 +80,4 @@ img.headshot {
   border-color: #FFFFFF;
   border-width: thick;
   border-radius: 50%;
-}
-
-.fab {
-  padding-right: 5px;
-}
-
-.fas {
-  padding-right: 5px;
-}
-
-img.figure-img {
-  padding-bottom: 10px;
-  width: 200px;
-}
-
-figcaption.storyheader {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-    padding-left: 13px;
-    padding-right: 10px;
-}
-
-.story{
-background-color: #FFFFFF;
-padding: 10px;
-padding-top: 15px;
-
-}
-
-figure {
-  font-size: 12px;
-}
-
-.col {
-  padding-top: 30px;
 }
