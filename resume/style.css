@@ -88,20 +88,19 @@ img.headshot {
 @media screen and (max-width: 767.98px){
   img.center {
     display: block;
-    max-width: 750px;
+    max-width: 767px;
     margin: 0 auto;
   }
   .row{
-    max-width: 700px;
+    max-width: 650px;
   }
-
 
 }
 /*Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 991.98px){
   img.center {
     display: block;
-    max-width: 100%;
+    max-width: 990px;
     margin: 0 auto;
   }
   .row{
