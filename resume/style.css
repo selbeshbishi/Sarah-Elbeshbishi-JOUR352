@@ -90,6 +90,7 @@ img.headshot {
     display: block;
     max-width: 767px;
     margin: 0 auto;
+    width: 100%;
   }
   .row{
     max-width: 650px;
@@ -103,9 +104,11 @@ img.headshot {
     display: block;
     max-width: 990px;
     margin: 0 auto;
+    width: 100%;
   }
   .row{
     max-width: 900px;
+    padding-left: 20px;
   }
 }
 /*Large devices (desktops, 992px and up) */
@@ -114,10 +117,12 @@ img.headshot {
     display: block;
     min-width: 1000px;
     margin: 0 auto;
+    width: 100%;
   }
   .row{
     min-width: 1000px;
     max-width: 1100px;
+    padding-left: 20px;
   }
 }
 /* Extra large devices (large desktops, 1200px and up)*/
@@ -125,11 +130,14 @@ img.headshot {
   img.center {
     display: block;
     min-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
   .row{
     min-width: 1200px;
     max-width: 1400px;
+    padding-left: 20px;
   }
 
 }
