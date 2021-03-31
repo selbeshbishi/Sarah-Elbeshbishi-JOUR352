@@ -92,13 +92,22 @@ img.headshot {
   }
   .row{
     max-width: 650px;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 
   img.headshot {
     margin-top: -70px;
     width: 100px;
     margin-left: 30px;
+  }
+
+  #container{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    font-family: 'lato', sans-serif;
+    font-size: 0.5em;
+    font-weight: 200;
   }
 
 }
