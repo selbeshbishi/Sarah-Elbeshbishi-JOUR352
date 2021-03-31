@@ -107,10 +107,11 @@ img.headshot {
 
   #container{
     width: 100%;
+    max-width: 760px;
     margin: 0 auto;
     padding-bottom: 45px;
     font-family: 'lato', sans-serif;
-    font-size: 2em;
+    font-size: 1em;
     font-weight: 400;
   }
 
