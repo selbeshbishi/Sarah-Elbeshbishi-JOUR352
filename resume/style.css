@@ -96,7 +96,7 @@ img.headshot {
   }
 
   .col-3 {
-    min-width: 150px;
+    min-width: 100px;
   }
 
   img.headshot {
@@ -110,8 +110,8 @@ img.headshot {
     margin: 0 auto;
     padding-bottom: 45px;
     font-family: 'lato', sans-serif;
-    font-size: 0.5em;
-    font-weight: 100;
+    font-size: 1em;
+    font-weight: 200;
   }
 
 }
