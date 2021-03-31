@@ -1,8 +1,7 @@
-/*main Style for my resume */
+/*main style for my resume */
 body {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1em
-  color= #444;
+  font-family: 'lato', sans-serif;
+  font-size: 1em;
   font-weight: 400;
 }
 
@@ -10,61 +9,28 @@ body {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
-
-#name {
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align: center;
-  color:#33485e;
-  border-bottom: 1px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-}
-
-#title {
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-}
-
 
 /*main sytles headers (education, skils, experience) */
 .sectionheader {
-  font-size: 1.5em;
+  font-size: 40px;
   text-transform: uppercase;
-  background-color: #33485e;
-  color: #fff;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  width: 70%;
-  min-width: 300px
+  color: #5E7708;
+  letter-spacing: 5px;
+  padding-top: 15px;
 }
 
 
 .jobtitle {
   font-weight: 600;
   font-size: 1.5em;
+  padding-top: 15px;
 }
 
-.organization {
-  font-size: 1.25em;
-}
-
-/*main styles years */
-.date {
+.jobdetail {
+  font-size: 15px;
   font-style: italic;
-  margin-top: 2px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
 }
 
 .description {
@@ -98,9 +64,78 @@ body {
   margin-bottom: 0;
 }
 
-.top {
-  width: 60%;
-  min-width: 300px;
+
+#work{
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 30px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: medium;
+  letter-spacing: 4px;
+}
+
+.col-3 {
+  background-color: #5E7708;
+  padding-top: 20px;
+  margin-top: -10px;
+}
+
+.col-9 {
+  padding-right: 50px;
+}
+
+img.center {
+  display: block;
+  width: 1400px;
   margin: 0 auto;
-  margin-bottom: 30px;
+}
+
+img.headshot {
+  margin-top: -100px;
+  width: 175px;
+  max-width: 1200px;
+  margin-left: 42px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: thick;
+  border-radius: 50%;
+}
+
+.fab {
+  padding-right: 5px;
+}
+
+.fas {
+  padding-right: 5px;
+}
+
+img.figure-img {
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+figcaption.storyheader {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 13px;
+    padding-right: 10px;
+}
+
+.story{
+background-color: #FFFFFF;
+padding: 10px;
+padding-top: 15px;
+
+}
+
+figure {
+  font-size: 12px;
+}
+
+.col {
+  padding-top: 30px;
 }
