@@ -86,13 +86,16 @@ img.headshot {
 
 /*Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 767.98px){
-  #container {
-
+  img.center {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
   }
-
   .row{
     width: 750px;
   }
+
+
 }
 /*Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 991.98px){
