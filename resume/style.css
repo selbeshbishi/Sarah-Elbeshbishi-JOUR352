@@ -95,24 +95,10 @@ img.headshot {
     padding-left: 10px;
   }
 
-  .col-3 {
-    min-width: 100px;
-  }
-
   img.headshot {
     margin-top: -20px;
     width: 100px;
     margin-left: 20px;
-  }
-
-  #container{
-    width: 100%;
-    max-width: 760px;
-    margin: 0 auto;
-    padding-bottom: 45px;
-    font-family: 'lato', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
   }
 
 }
@@ -148,7 +134,7 @@ img.headshot {
     padding-left: 20px;
   }
   img.headshot {
-    margin-top: -90px;
+    margin-top: -100px;
     width: 220px;
     margin-left: 40px;
   }
