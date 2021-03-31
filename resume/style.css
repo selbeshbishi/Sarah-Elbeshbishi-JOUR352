@@ -101,6 +101,14 @@ img.headshot {
     margin-left: 10px;
   }
 
+.col-9 {
+  max-width: 400px;
+}
+
+.col-3 {
+  max-width: 200px;
+}
+
 }
 /*Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 991.98px){
