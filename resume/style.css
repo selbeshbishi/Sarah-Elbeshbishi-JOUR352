@@ -101,7 +101,6 @@ img.headshot {
 @media screen and (max-width: 991.98px){
   img.center {
     display: block;
-    max-width: 990px;
     margin: 0 auto;
     width: 100%;
   }
