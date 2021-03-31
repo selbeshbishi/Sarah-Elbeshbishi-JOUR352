@@ -85,7 +85,7 @@ img.headshot {
 }
 
 /*Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px)and (max-width: 767.98px){
+@media screen and (max-width: 767.98px){
   #container {
     width:700px;
   }
@@ -97,9 +97,7 @@ img.headshot {
 }
 /*Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 991.98px){
-  #container {
-    width:800px;
-  }
+
 }
 /*Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px){
