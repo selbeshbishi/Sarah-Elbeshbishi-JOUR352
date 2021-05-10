@@ -1,0 +1,252 @@
+#topper {
+  width: 100%;
+}
+
+#headline{
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 25px 25px 25px;
+  font-weight: bold;
+  max-width: 900px;
+  font-family: georgia, serif;
+}
+
+
+.full {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  font-family: georgia, serif;
+}
+
+.container2{
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+#byline {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 15px;
+  font-family: georgia, serif;
+  color: #FF001A;
+}
+
+.chart{
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 0 30px 0;
+}
+
+
+.graph {
+  padding: 30px 0 30px 0;
+  max-width: 700px;
+  margin: auto;
+}
+
+.pquote {
+  max-width: 650px;
+  font-weight: bold;
+  font-family: georgia, serif;
+  font-size: 26px;
+  padding: 20px;
+  margin: auto;
+  color: #FF001A;
+}
+
+.attribution {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 10px;
+  font-style: italic;
+  color: black;
+}
+
+.id {
+  width: 100%;
+  max-width: 950px;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.caption {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 25px;
+  font-size:12px;
+}
+
+.source{
+  max-width: 500px;
+  margin: auto;
+  font-size: 14px;
+  font-style: italic;
+  font-family: open sans, sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  text-align: center;
+}
+
+a:link {    /* unvisited link */
+    color:  #d10d0f;
+    text-decoration: none;
+}
+a:visited {    /* visited link */
+    color: #73000c;
+}
+a:hover {    /* mouse over link */
+    color: #FF001A;
+    border-bottom: none;
+}
+a:active {    /* active link */
+    color: #d10d0f;
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 767.98px){
+  #headline{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 25px 25px 25px;
+    font-weight: bold;
+    max-width: 900px;
+    font-family: georgia, serif;
+  }
+
+  .chart{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .graph {
+    padding: 30px 20px 30px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .caption {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px 20px 15px;
+    font-size:12px;
+  }
+
+  #byline {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+/*Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 991.98px){
+  #headline{
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 25px 25px 25px;
+    font-weight: bold;
+    max-width: 900px;
+    font-family: georgia, serif;
+  }
+
+  .chart{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .graph {
+    padding: 30px 20px 30px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .caption {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px 20px 15px;
+    font-size:12px;
+  }
+
+  #byline {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+}
+/*Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+  #headline{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 25px 25px 25px;
+    font-weight: bold;
+    max-width: 900px;
+    font-family: georgia, serif;
+  }
+
+  .chart{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px 30px 20px;
+  }
+
+  .graph {
+    padding: 30px 20px 30px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .caption {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 15px 20px 15px;
+    font-size:12px;
+  }
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #headline{
+    font-size: 55px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 25px 25px 25px;
+    font-weight: bold;
+    max-width: 900px;
+    font-family: georgia, serif;
+  }
